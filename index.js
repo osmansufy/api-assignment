@@ -35,6 +35,7 @@ const onGetMealinfo = (info) => {
       const mealDetailsHtml = `
     <img height="322" weight="588" src=${strMealThumb} alt="">
     <h3>${strMeal}</h3>
+    <h5>Ingredients</h5>
     <ul id="mealIngradients">
         <li id="ingredients1">${strIngredient1}</li>
         <li  id="ingredients2">${strIngredient2}</li>
