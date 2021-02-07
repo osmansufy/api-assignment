@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="index.scss" /> -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Meal Api</title>
+  </head>
+  <body>
+    <div class="container">
+        <div id="detailsMeal" class="details-content">
+         
+        </div>
+      <div
+        class="input-wrapper w-50 my-0 p-5 mx-auto d-flex justify-content-center align-items-center"
+      >
+        <div class="input-group">
+          <div class="form-outline">
+            <input
+              id="search-input"
+              type="search"
+              id="form1"
+              class="form-control"
+            />
+            <label class="form-label" for="form1">Search</label>
+          </div>
+          <button
+            id="search-button"
+            type="button"
+            class="btn bg-secendary-custom"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+      <div class="allFood-wrapper">
+          <div class="row" id="allMeal">
+          
+          </div>
+     
+      <div id="error"></div>
+      </div>
+    </div>
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
